@@ -1,0 +1,35 @@
+html,
+body,
+#container {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+#uploadLabel {
+  border: 1px solid #ccc;
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+button {
+  position: absolute;
+  top: 10px;
+  width: 120px;
+  box-sizing: border-box;
+  line-height: 30px;
+  z-index: 1;
+}
+
+#edit {
+  left: 10px;
+}
+
+#reset {
+  left: 150px;
+}
